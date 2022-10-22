@@ -14,11 +14,11 @@ function App() {
 			<Router>
 				<Routes>
 					<Route path="/Restaurant-website" element={<Home />} />
-					<Route path="/About" element={<About />} />
-					<Route path="/Menu" element={<Menu />} />
-					<Route path="/Gallery" element={<Gallery />} />
-					<Route path="/Contact" element={<Contact />} />
-					<Route path="/Form" element={<Form />} />
+					<Route path="Restaurant-website/About" element={<About />} />
+					<Route path="Restaurant-website/Menu" element={<Menu />} />
+					<Route path="Restaurant-website/Gallery" element={<Gallery />} />
+					<Route path="Restaurant-website/Contact" element={<Contact />} />
+					<Route path="Restaurant-website/Form" element={<Form />} />
 				</Routes>
 			</Router>
 		</div>
