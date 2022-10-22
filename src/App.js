@@ -11,16 +11,16 @@ import Form from './Components/Form';
 function App() {
   return (
 		<div>
-		<Router>
-        <Routes>
-        <Route path="/" element={<Home />}/>
-		<Route path="/About" element={<About/>}/>
-		<Route path="/Menu" element={<Menu/>}/>
-		<Route path="/Gallery" element={<Gallery/>}/>
-		<Route path="/Contact" element={<Contact/>}/>
-		<Route path="/Form" element={<Form/>}/>
-	   </Routes>
-		</Router>
+			<Router>
+				<Routes>
+					<Route path="/Restaurant-website" element={<Home />} />
+					<Route path="/About" element={<About />} />
+					<Route path="/Menu" element={<Menu />} />
+					<Route path="/Gallery" element={<Gallery />} />
+					<Route path="/Contact" element={<Contact />} />
+					<Route path="/Form" element={<Form />} />
+				</Routes>
+			</Router>
 		</div>
 	);
 }
