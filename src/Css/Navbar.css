@@ -1,0 +1,93 @@
+*{
+	box-sizing: border-box;
+}
+.navbar-container{
+	position:fixed;
+	top:2%;
+}
+.logo-div img{
+width: 60px;
+height: 50px;
+}
+.name-logo h1{
+	color: white;
+	font-size: 38px;
+	font-weight: 1000;
+}
+.logo-and-name-div{
+	display: flex;
+	gap:10px;
+}
+.navbar-content-full-div-ul-container ul{
+ display: grid;
+ gap:50px;
+ color: #fff;
+ font-weight: 1000;
+}
+.navbar-content-full-div-ul-container ul li a{
+cursor: pointer;
+text-decoration: none;
+color: #fff;
+}
+.navbar-content-full-div-ul-container ul li a:hover{
+	border-left: 2px solid orange;
+	color: orange;
+	
+}
+.content-section-ul-div{
+	display: grid;
+	gap:50px;
+}
+.navbar-content-full-div-ul-container{
+	padding: 20px;
+}
+.last-right-div-bar{
+	padding: 20px;
+	color: white;
+	font-weight: 1000;
+}
+.rig-home-button-div{
+	padding: 0px 10px;
+	display: flex;
+	gap: 30px;
+	width: 450px;
+}
+.rig-home-button-div button{
+padding: 15px 30px;
+color: #FFF;
+background-color: orange;
+border-radius: 10px;
+font-weight: 1000;
+font-size: 18px;
+cursor: pointer;
+}
+.logo-del-container{
+	width: 100%;
+	gap:40px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 100;
+}
+.logo-div img{
+	width: 70px;
+	height: 70px;
+}
+.two-button-div-service{
+	position: absolute;
+	display: grid;
+	gap:20px;
+	top: 72%;
+	left: 8rem;
+}
+.two-button-div-service div{
+	background-color: orange;
+	padding: 8px 15px;
+	border-radius: 10px;
+}
+.two-button-div-service{
+	display: none;
+}
+.rig-home-button-div:hover .two-button-div-service{
+	display: block;
+	display: grid;
+}

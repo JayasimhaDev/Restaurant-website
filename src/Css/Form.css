@@ -1,0 +1,10 @@
+*{
+	box-sizing: border-box;
+}
+.two-div-form-main{
+	padding: 60px;
+	padding-left: 300px;
+}
+.home-deliver-from h1{
+	margin-bottom: 50px;
+}

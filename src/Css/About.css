@@ -1,0 +1,59 @@
+*{
+box-sizing: border-box;
+/* background-color: rgba(5, 4, 4, 0.998); */
+}
+body{
+background-color: rgba(5, 4, 4, 0.998);
+}
+.about-page-container{
+background-color: rgba(5, 4, 4, 0.998);
+width: 100%;
+/* height: auto; */
+color: #fff;
+}
+.icon-media-div{
+    width: 200px;
+    display: flex;
+    gap:30px;
+    border: 1px solid orange;
+    padding: 10px;
+}
+.fb-icon{
+    color: blue;
+    font-size: 35px;
+}
+.ins-icon{
+    color: rgb(234, 11, 97);
+    font-size: 35px;
+}
+.link-icon{
+    color: blue;
+    font-size: 35px;
+}
+.img-only-div img{
+    width: 400px;
+    height: 500px;
+}
+.one-section-main{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}
+.text-only-div{
+    width: 400px;
+    padding: 20px  20px;
+    display: grid;
+    gap:30px;
+}
+.text-only-div p{
+    line-height: 30px;
+}
+.one-section-main{
+transform: translate(7%, 8%);
+border-bottom: 1px solid orange;
+}
+.about-page-section{
+    display: grid;
+    gap:80px;
+}

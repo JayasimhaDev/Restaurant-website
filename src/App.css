@@ -1,0 +1,21 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+list-style: none;
+scroll-behavior: smooth;
+text-decoration: none;
+border: none;
+outline: none;
+}
+
+@import './Css/Home.css';
+@import './Css/Navbar.css';
+@import './Css/About.css';
+@import './Css/Menu.css';
+@import './Css/Gallery.css';
+@import './Css/Contact.css';
+@import './Css/Form.css';
+@import './Css/ContactForm.css';
+@import './Css/Blogpage.css';
+

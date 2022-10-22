@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+.contact-page-maini-section{
+    padding-top: 80px;
+    padding-left: 200px;
+}
+.fb-icon-con{
+    color: blue;
+    font-size: 30px;
+}
+.ins-icon-con{
+    color: rgb(234, 11, 97);
+    font-size: 30px;
+}
+.link-icon-con{
+    color: blue;
+    font-size: 30px;
+}
+.img-sub-divbar img{
+    width: 100px;
+    border-radius: 20px;
+}
+/* .img-sub-divbar img:nth-child(1){
+    width: 150px;
+}
+.img-sub-divbar img:nth-child(2){
+    width: 100px;
+}
+.img-sub-divbar img:nth-child(3){
+    width: 100px;
+} */
+.info-img-sub-bar{
+    text-align: center;
+    display: grid;
+    gap:10px;
+}
+.card-one-page{
+    padding: 25px 20px;
+    width: 300px;
+    height: 400px;
+    display: grid;
+    gap:20px;
+    text-align: center;
+    box-shadow: 0px 1px 1px 1px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: linear-gradient(295deg, rgba(2,0,36,1) 0%, rgba(185,24,199,1) 44%, rgba(0,212,255,1) 100%);
+
+}
+.skj-button{
+    padding: 9px 60px;
+    border-radius: 30px;
+    font-size: 18PX;
+}
+.icon-conatct{
+    display: flex;
+    justify-content: space-around;
+}
+.info-mail-id{
+    display: grid;
+    gap:10px;
+}
+.info-mail-id h4{
+color: orange;
+}
+.card-section-page{
+    display: flex;
+    gap:50px;
+}
+.img-sub-divbar-shabri img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.img-sub-divbar-karthi img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.img-divabr-last{
+    display: flex;
+    gap:20px;
+}
+.img-div-last-more img{
+    width: 450px;
+    height: 600px;
+}
+.h4-tag-div-text{
+    display: grid;
+    gap:30px;
+}
+.h4-tag-div-text h4 span{
+    color: orange;
+}
+.contact-page-maini-section{
+    display: grid;
+    gap:50px;
+transform: translate(6%, 1%);
+}
