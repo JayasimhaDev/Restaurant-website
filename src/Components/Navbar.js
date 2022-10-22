@@ -19,19 +19,19 @@ const Navbar = () => {
 					<div className="navbar-content-full-div-ul-container">
 						<ul>
 							<li>
-								<a href="/">HOME</a>
+								<a href="/Restaurant-website">HOME</a>
 							</li>
 							<li>
-								<a href="/Menu">MENU</a>
+								<a href="/Restaurant-website/Menu">MENU</a>
 							</li>
 							<li>
-								<a href="/Gallery">GALLERY</a>
+								<a href="/Restaurant-website/Gallery">GALLERY</a>
 							</li>
 							<li>
-								<a href="/About">ABOUT</a>
+								<a href="/Restaurant-website/About">ABOUT</a>
 							</li>
 							<li>
-								<a href="/Contact">CONTACT</a>
+								<a href="/Restaurant-website/Contact">CONTACT</a>
 							</li>
 						</ul>
 					</div>
